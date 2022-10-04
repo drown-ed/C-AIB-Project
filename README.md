@@ -30,13 +30,10 @@
     - 셀럽의 팬 집단이 크면 반응 파악이 어려워져 소통이 힘들어진다는 단점.
     
     → 자연어 모델링을 통해 단점을 극복해 기업 측 요구사항 충족..
-    
 
 - 비슷한 계열의 어플리케이션 ‘버블’
     - 월 구독 4,500원 유료 서비스.
     - 글자수 제한.
-    
-    ![3CCF5F95-6F60-49D5-BFE9-011A678B5DAA.jpeg](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c5f86f19-06b2-44da-9c80-6b0a89bc3701/3CCF5F95-6F60-49D5-BFE9-011A678B5DAA.jpeg)
     
 
 ### 목적
@@ -64,12 +61,6 @@
 2. Mecab 형태소 분석기 (GRU)
     1. 정확도 87.26% - 실제 제공된 데이터에서 괜찮은 분류를 보여줌.
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/084ad851-94d9-4335-8eb4-753011a02e85/Untitled.png)
-
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c03819b7-0ff0-48ec-ac91-9fc9378f0206/Untitled.png)
-
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/930f0a71-66b6-46e8-a4c8-a1dcd9435853/Untitled.png)
-
 ### 한국어 연속적·단발적 통합 데이터
 
 1. Okt 형태소 분석기 (LSTM)
@@ -82,18 +73,6 @@
     데이터 세트 라벨 균형이 맞지 않아 Weight balancing 진행.
     
     </aside>
-    
-
-## 텍스트 축약
-
- 텍스트 요약은 두 가지 방법으로 진행했다. 대화 데이터를 분석해 중요도나 언급이 높은 단어 등을 고려해 시각적으로 늘어놓은 워드 클라우드와 TextRank를 사용해 문장에 순위를 매겨 알려주는 모델을 제작했다.
-
-<aside>
-💡 어디까지 해줄 수 있냐 물을 때의 대답이 결코 가볍지 않았어요. 나는. 해줄 수 있는 한 내가 가지고 있는 한, 뭔들 못할까. 딱히 희생도 아니지 그런건. 보다 더 가치있고 쓸모있는 걸 걸 수 있다면 하고 아쉬울 정도라. 사랑해 많이. 지금 이 순간도, 보고싶은만큼.
-
-</aside>
-
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d495e0a9-29b6-442e-8048-f6228012ab90/Untitled.png)
 
 # 기대효과
 
